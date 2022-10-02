@@ -1,0 +1,12 @@
+                                                   For fix qca9377 adapter not running monitor mode
+
+ls -l /lib/firmware/ath10k/QCA9377/hw1.0/
+
+*
+
+cp -R /lib/firmware/ath10k/QCA9377 ~/
+sudo rm /lib/firmware/ath10k/QCA9377/hw1.0/firmware-6.bin
+reboot
+                                                        
+                                                          
+                                                           You welcome !!
